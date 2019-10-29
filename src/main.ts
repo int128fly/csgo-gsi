@@ -13,3 +13,12 @@ platformBrowserDynamic()
     preserveWhitespaces: false
   })
   .catch(err => console.error(err));
+
+/*const app: express.Application = express();
+app.get('/', (req, res) => {
+  console.log(req, res);
+});
+
+app.listen(3000, () => {
+  console.log('Example app listening on port 3000!');
+});*/
